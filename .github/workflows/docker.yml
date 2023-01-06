@@ -6,11 +6,12 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Build sources, run the tests suite, generate and push docker image
+name: Generate and push docker image
 
 on:
   push:
-    tags: [ "v*" ]
+    tags: 
+      - 'v*'
 
 jobs:
   build:
