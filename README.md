@@ -1,4 +1,5 @@
-[![CI pipeline](https://github.com/simplyracing/ads/actions/workflows/full-pipeline.yml/badge.svg)](https://github.com/simplyracing/ads/actions/workflows/full-pipeline.yml)
+[![CI pipeline](https://github.com/simplyracing/ads/actions/workflows/release.yml/badge.svg)](https://github.com/simplyracing/ads/actions/workflows/release.yml)
+[![Packaging](https://github.com/simplyracing/ads/actions/workflows/packaging.yml/badge.svg)](https://github.com/simplyracing/ads/actions/workflows/packaging.yml)
 
 # Ads
 
