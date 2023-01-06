@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>ch.vardanega.simplyracing</groupId>
 	<artifactId>ads</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<name>ads</name>
 	<description>Service that provides features to manage ads</description>
 	<properties>
@@ -49,7 +49,7 @@
 		<url>https://github.com/simplyracing/${project.artifactId}</url>
 		<connection>scm:git:git://github.com/simplyracing/${project.artifactId}.git</connection>
 		<developerConnection>scm:git:git@github.com:simplyracing/${project.artifactId}.git</developerConnection>
-		<tag>v0.0.5</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
