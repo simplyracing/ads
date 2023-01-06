@@ -5,15 +5,12 @@
 
 Service that provides features to manage ads
 
-# Test
+# Test and run
 
-`./mvn clean verify`
-
-# Run
+`./mvnw clean verify`
 
 `./mvnw spring-boot:run`
 
 # To do
 
-* Dockerize the service
 * Create the microfontend
