@@ -30,13 +30,27 @@
 	</dependencies>
 
 	<build>
-		<finalName>${artifactId}</finalName>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<scmCommentPrefix>[ci skip]</scmCommentPrefix>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<url>https://github.com/simplyracing/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/simplyracing/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:simplyracing/${project.artifactId}.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 </project>
