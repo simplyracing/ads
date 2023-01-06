@@ -1,3 +1,5 @@
+[![CI pipeline](https://github.com/simplyracing/ads/actions/workflows/full-pipeline.yml/badge.svg)](https://github.com/simplyracing/ads/actions/workflows/full-pipeline.yml)
+
 # Ads
 
 Service that provides features to manage ads
