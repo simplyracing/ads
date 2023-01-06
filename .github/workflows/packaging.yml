@@ -9,6 +9,9 @@
 name: Generate and push docker image
 
 on:
+  create:
+    tags:
+      - '*'
   push:
     tags: 
       - '*'
